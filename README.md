@@ -74,10 +74,10 @@ Follow these steps to set up the project locally:
    - The backend server will start at http://localhost:8080
 
 7. **Set Up the Frontend:**
-   -Ensure the script.js file and other frontend files are located in the src/main/resources/static directory.
-   -Access the frontend in your browser at http://localhost:8080.
+   - Ensure the script.js file and other frontend files are located in the src/main/resources/static directory.
+   - Access the frontend in your browser at http://localhost:8080.
    
 8. **Test the Features:**
-   -Open the application in your browser.
-   -Submit feedback, view the feedback list, and delete entries to ensure everything works as expected.
+   - Open the application in your browser.
+   - Submit feedback, view the feedback list, and delete entries to ensure everything works as expected.
 
