@@ -52,17 +52,15 @@ Follow these steps to set up the project locally:
 4. **Open the Project in Eclipse or IntelliJ IDEA**:
    -Open the Project in Eclipse or IntelliJ IDEA
    For Eclipse:
-   
-         1. Open Eclipse.
-         2. Click on File > Import > Existing Maven Projects.
-         3. Browse to the project directory and select it.
-         4. Click Finish to load the project.
+      - 1. Open Eclipse.
+      - 2. Click on File > Import > Existing Maven Projects.
+      - 3. Browse to the project directory and select it.
+      - 4. Click Finish to load the project.
    
    For IntelliJ IDEA:
-
-         1. Open IntelliJ IDEA.
-         2.Click on Open and select the project directory.
-         3. IntelliJ will automatically detect the Maven project and import it.
+      - 1. Open IntelliJ IDEA.
+      - 2. Click on Open and select the project directory.
+      - 3. IntelliJ will automatically detect the Maven project and import it.
    
  5. **Update the application.properties file in the src/main/resources directory with your MySQL credentials:**:
 
@@ -71,9 +69,9 @@ Follow these steps to set up the project locally:
          spring.datasource.password=<your-password>
     
 6. **Run the application:**
-   -For Eclipse: Right-click the project > Run As > Java Application or Spring Boot App.
-   -For IntelliJ IDEA: Navigate to the FeedbackSubmissionSystemApplication class, right-click > Run 'FeedbackSubmissionSystemApplication'.
-   -The backend server will start at http://localhost:8080
+   - For Eclipse: Right-click the project > Run As > Java Application or Spring Boot App.
+   - For IntelliJ IDEA: Navigate to the FeedbackSubmissionSystemApplication class, right-click > Run 'FeedbackSubmissionSystemApplication'.
+   - The backend server will start at http://localhost:8080
 
 7. **Set Up the Frontend:**
    -Ensure the script.js file and other frontend files are located in the src/main/resources/static directory.
