@@ -50,13 +50,13 @@ Follow these steps to set up the project locally:
     ```
 
 4. **Open the Project in Eclipse or IntelliJ IDEA**:
-   For Eclipse:
+   - For Eclipse:
       - 1. Open Eclipse.
       - 2. Click on File > Import > Existing Maven Projects.
       - 3. Browse to the project directory and select it.
       - 4. Click Finish to load the project.
    
-   For IntelliJ IDEA:
+   - For IntelliJ IDEA:
       - 1. Open IntelliJ IDEA.
       - 2. Click on Open and select the project directory.
       - 3. IntelliJ will automatically detect the Maven project and import it.
