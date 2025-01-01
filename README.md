@@ -42,25 +42,44 @@ Follow these steps to set up the project locally:
      ```bash
      cd feedback-submission-system
      ```
-2. **Set Up the Database**:
+3. **Set Up the Database**:
    -Start your MySQL server
    -Log in to MySQL and create the required database
-      - CREATE DATABASE feedbackdb;
+    ```bash
+      CREATE DATABASE feedbackdb;
+    ```
 
-3. **Open the Project in Eclipse or IntelliJ IDEA**:
+4. **Open the Project in Eclipse or IntelliJ IDEA**:
    -Open the Project in Eclipse or IntelliJ IDEA
-       **For Eclipse:**
-       - For Eclipse:
+   For Eclipse:
+   
          1. Open Eclipse.
          2. Click on File > Import > Existing Maven Projects.
          3. Browse to the project directory and select it.
          4. Click Finish to load the project.
    
-For IntelliJ IDEA:
+   For IntelliJ IDEA:
 
-         1. Open Eclipse.
-         2. Click on File > Import > Existing Maven Projects.
-         3. Browse to the project directory and select it.
-         4. Click Finish to load the project.
- 
+         1. Open IntelliJ IDEA.
+         2.Click on Open and select the project directory.
+         3. IntelliJ will automatically detect the Maven project and import it.
+   
+ 5. **Update the application.properties file in the src/main/resources directory with your MySQL credentials:**:
+
+         spring.datasource.url=jdbc:mysql://localhost:3306/feedbackdb  
+         spring.datasource.username=<your-username>  
+         spring.datasource.password=<your-password>
+    
+6. **Run the application:**
+   -For Eclipse: Right-click the project > Run As > Java Application or Spring Boot App.
+   -For IntelliJ IDEA: Navigate to the FeedbackSubmissionSystemApplication class, right-click > Run 'FeedbackSubmissionSystemApplication'.
+   -The backend server will start at http://localhost:8080
+
+7. **Set Up the Frontend:**
+   -Ensure the script.js file and other frontend files are located in the src/main/resources/static directory.
+   -Access the frontend in your browser at http://localhost:8080.
+   
+8. **Test the Features:**
+   -Open the application in your browser.
+   -Submit feedback, view the feedback list, and delete entries to ensure everything works as expected.
 
