@@ -43,8 +43,8 @@ Follow these steps to set up the project locally:
      cd feedback-submission-system
      ```
 3. **Set Up the Database**:
-   -Start your MySQL server
-   -Log in to MySQL and create the required database
+   - Start your MySQL server
+   - Log in to MySQL and create the required database
     ```bash
       CREATE DATABASE feedbackdb;
     ```
@@ -69,13 +69,13 @@ Follow these steps to set up the project locally:
          spring.datasource.password=<your-password>
     
 6. **Run the application:**
-   - For Eclipse: Right-click the project > Run As > Java Application or Spring Boot App.
+   - For Eclipse: Navigate to the src/main/java/com.colon.feedback/FeedbackAplication.java, right-click > Run As > Java Application.
    - For IntelliJ IDEA: Navigate to the FeedbackSubmissionSystemApplication class, right-click > Run 'FeedbackSubmissionSystemApplication'.
    - The backend server will start at http://localhost:8080
 
 7. **Set Up the Frontend:**
    - Ensure the script.js file and other frontend files are located in the src/main/resources/static directory.
-   - Access the frontend in your browser at http://localhost:8080.
+   - Access the frontend in your browser at http://localhost:8080
    
 8. **Test the Features:**
    - Open the application in your browser.
